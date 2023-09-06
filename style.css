@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Inconsolata:wght@400;700&family=Russo+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Inconsolata', monospace;
+   
+    /* background-color: aquamarine; */
+}
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to left,#FF5F6D , #FFC371 );
+}
+.inner-box{
+    width: 400px;
+    /* height: 600px    ; */
+    margin: 0 auto;
+    position: relative;
+    top: 25%;
+    transform: translateY(-25%);
+    padding: 20px 30px;
+    background-color: aliceblue;
+    border-radius: 5%;
+    box-shadow: 3px 3px 5px #89333A ;
+    z-index: 1;
+
+}
+.signup-header h1{
+    font-size: 2.5rem;
+    color: #BD2300;       ;
+}
+.signup-header p{
+    font-size: 1.1rem;
+    color: grey;
+}
+.signup-body{
+    margin: 20px 0;
+}
+.signup-body p{
+    margin: 10px;
+}
+.signup-body p label{
+    display: block;
+    font-weight: bold;
+}
+.signup-body p input{
+    width: 100%;
+    margin: 5px 0;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 3px;
+    font-size: 1rem;
+}
+.signup-body p #submit{
+    background-color: #E55562;
+    color: antiquewhite;
+    cursor: pointer;
+}
+.signup-body p #submit:hover{
+    background-color: #89333A;
+}
+
+.signup-footer p{
+    color: black;
+    text-align: center;
+
+}
+.signup-footer p a{
+    color:  #E55562;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+   
+}
+.c1{
+    position: absolute;
+    top: 100px;
+    left: 200px;
+    background: linear-gradient(to left,#FF5F6D , #FFC371 );
+}
+.c2{
+    background: linear-gradient(to left,#FF5F6D , #FFC371 );
+    position: absolute;
+    bottom: 100px;
+    right: 200px;
+}
